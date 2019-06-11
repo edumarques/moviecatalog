@@ -1,4 +1,4 @@
-### Little application of a movie catalog
+## Movie catalog
 List with the 20 most popular movies currently
 
 ### Application's overview
