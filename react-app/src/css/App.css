@@ -1,0 +1,77 @@
+li {
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+#movieList {
+  margin-top: 70px;
+  width: 50%;
+  float: left;
+  animation: fadein 1s;
+  -moz-animation: fadein 1s; /* Firefox */
+  -webkit-animation: fadein 1s; /* Safari and Chrome */
+  -o-animation: fadein 1s; /* Opera */
+}
+
+#details {
+  margin-top: 70px;
+  width: 50%;
+  float: left;
+}
+
+/*Responsivity*/
+
+@media (max-width: 700px) {
+  #movieList {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-height: 400px) {
+  #movieList {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*Animations*/
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Opera */
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,42 @@
+.movieItem {
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  background-color: #eeeeee;
+  border: 1px solid #b3b3b3;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.movieItem:hover {
+  background-color: #dedede;
+}
+
+.movieItem div {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.movieItem div:after {
+  position: absolute;
+  opacity: 0;
+  bottom: 10px;
+  right: 20px;
+  transition: 0.5s;
+}
+
+.movieItem:hover div {
+  padding-left: 10px;
+}
+
+.movieItem:hover div:after {
+  opacity: 1;
+  right: 0;
+}
+
+#overviewSection {
+  padding-left: 10px;
+  text-align: justify;
+}

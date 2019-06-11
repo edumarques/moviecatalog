@@ -1,0 +1,17 @@
+#movieDetails {
+  margin: 10px;
+  padding: 10px;
+  background-color: #eeeeee;
+  border: 1px solid #b3b3b3;
+  border-radius: 10px;
+  position: fixed;
+  width: 45%;
+}
+
+#detailsPoster {
+  text-align: center;
+}
+
+#detailsTitle {
+  text-align: center;
+}

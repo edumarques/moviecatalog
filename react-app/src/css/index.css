@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+p {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+h4 {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
